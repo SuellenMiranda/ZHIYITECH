@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">Planos</a>
+    </div> 
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">Sobre</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">Chat</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b style="font-family:comic sans ms; font-size:35">ZHIYITECH</b></h1>
+    <p style="font-family:comic sans ms; color:grey; font-size:20px">Artificial Intelligence, Cloud Infrastructure</p>
+  </div>
+  <div>
+    <p style="font-family: comic sans ms; color:black; font-size:20px">Bom, a empresa retrata, inicialmente, um projeto pessoal de um grupo de integrantes no curso de ciência da computação. Sendo assim, nos decidimos juntos a refazer um jogo que amos, com isso melhoramos o que podermos, muitas coisas aconteceram no caminho, entratento ultrapassamos todas. Trabalhamos para um empresa, depois de melhorarmos o jogo em nossas propriedades (na nossa empresa já recem formada), asssim passamos a diante, felizes com o resultado. Por fim, descidimos focar em Cibersegurança, e em outras áreas que pudermos trabalhar.</p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="/xn.jpg" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">CEO - Xiao Nai</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/hm.jpg" style="width:100%">
+      <div class="w3-display-middle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom" >Programador - Hao Mei</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="/ko.jpg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">CyberSecurity - KO</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+    <!-- Nomezin do arquivo -->
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv"></span>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Grid -->
+  <div class="w3-row w3-container">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Produtos</span>
+    </div>
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+      <h3>Design</h3>
+      <p>{ É a concepção de um produto (máquina, utensílio, mobiliário, embalagem, publicação etc.), esp. no que se refere à sua forma física e funcionalidade. }</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+      <h3>Outras Competências</h3>
+      <p>{ Em geral, um clinte entra em contato com a central onde, nos dizendo o que quer, é possível tracarmos um plano, ou encaminhamos para nosso pré planos ou nos mesmos dirigimos um contato com um orçamento necessário de cada cliente expecífico. }</p>
+    </div>
+
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+      <h3>Cyber Security</h3>
+      <p>{ Cibersegurança é a prática que protege computadores e servidores, dispositivos móveis, sistemas eletrônicos, redes e dados contra ataques maliciosos. Também é chamada de segurança da tecnologia da informação ou segurança de informações eletrônicas. O termo é aplicável a uma variedade de contextos, desde negócios até computação móvel, e pode ser dividido em algumas categorias comuns. }</p>
+         }</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h3>Plano</h3>
+      <p>Escolha o plano que melhor se encaixa com a sua necessidade. (Design e Cyber Security)</p>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <!--Somente basico -->
+        <li class="w3-black w3-xlarge w3-padding-32">Basico Design</li>
+        <li class="w3-padding-16"><b>10</b> Croquí</li>
+        <li class="w3-padding-16"><b>10</b> Mapa</li>
+        <li class="w3-padding-16"><b>5</b> Demo inicial</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <!-- Somente pró-->
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pró Design</li>
+        <li class="w3-padding-16"><b>15</b> Croquí</li>
+        <li class="w3-padding-16"><b>15</b> Mapa</li>
+        <li class="w3-padding-16"><b>10</b> Demo inicial</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <!--Somente premium-->
+        <li class="w3-black w3-xlarge w3-padding-32">Premium Design</li>
+        <li class="w3-padding-16"><b>50</b> Croquí</li>
+        <li class="w3-padding-16"><b>50</b> Mapa</li>
+        <li class="w3-padding-16"><b>25</b> Demo inicial</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Enton né, é test -->
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Basico CyberSecurity</li>
+        <!--Somente basico -->
+        <li class="w3-padding-16"><b>10GB</b> Armazenamento</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domínios</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">Pró CyberSecurity</li>
+        <!-- Somente pró-->
+        <li class="w3-padding-16"><b>25GB</b> Armazenamento</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domínios</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">Premium CyberSecurity</li>
+        <!--Somente premium-->
+        <li class="w3-padding-16"><b>50GB</b> Armazenamento</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domínios</li>
+        <li class="w3-padding-16"><b>Sem fim</b> Suporte</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity">por mês, até o fim do contrato</span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Orçamento</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+
+
+    
+
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Sobre</span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="ko.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>KO</h3>
+          <p class="w3-opacity">CyberSecurity</p>
+          <p>Sou especialista em Cibersegurança, inicialmente trabalho ajudando o CEO, mas também faço trabalhos ao redor pela empresa ZHIYITECH, Tenho varias habilidades e qualoificaçoes necessárias para tal cargo, então espero por ajudar a todos.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Cntate-me</button></p>
+        </div>
+      </div>
+    </div>
+
+        <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="xn.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Xiao Nai</h3>
+          <p class="w3-opacity">CEO & Fundador</p>
+          <p>CEO e Fundador, comigo meu cliente poderá conversar sobre seus projetos que precisaram de meus trabalhos, assim posso ajudar pessoalmente ou posso passar para um funcionário que tenhas as qualidades específicar que o cliente necessitar.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contate-me</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="bww.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Wei Wei</h3>
+          <p class="w3-opacity">Central</p>
+          <p>Comigo irá poder ter a opção de conversar, e nós direcinaremos, para a área específica ou para os planos já mostrados. Também poderá ter a liberdade de uma conversa menos informal mas, ainda assim com aspéctos mais amigaveis com propostas para contratos futuros.</p>
+          <p><button class="w3-button w3-light-grey w3-block">Contate-me</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Chat</span>
+  </div>
+
+  <form class="w3-container" action="/action_page.php" target="_blank">
+    <div class="w3-section">
+      <label>Name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="w3-section">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="w3-section">
+      <label>Subject</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="w3-section">
+      <label>Message</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="w3-button w3-block w3-black" type="button" onclick="alert('Ops, preencha os campos em branco para enviar a mensagem! Certifique se as informações estão corretas.')">Send</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  <h4 style="font-family:comic sans ms; color:Navy blue; font-size:25px" >Fim da Página </h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right" style="font-size:25px" ></i>De volta ao topo :) </a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+  <div style="font-family:comic sans ms; color:grey; font-size:20px">
+  <p>Feito usando engenharia reversa e com adições e "retiradas" necessárias, redes sociais fakes por pura amostra ;)_<a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-black"> w3.css</a></p>
+  </div>
+
+</footer>
+
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+
+<!-- chat interativo -->
+
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image:('empresa.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+</html>
