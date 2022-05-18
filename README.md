@@ -1,6 +1,6 @@
 # ZHIYITECH UM SITE DE NEGÓCIOS 
 
-/> https://suellen-kitten.github.io/ZHIYITECH/
+/> [https://suellen-kitten.github.io/ZHIYITECH/](https://suellenmiranda.github.io/ZHIYITECH/)
 
 ![Captura de tela 2021-07-03 175618](https://user-images.githubusercontent.com/62394959/124366707-feb45b00-dc27-11eb-89b7-658971549da6.png)
 
